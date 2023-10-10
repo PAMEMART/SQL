@@ -1,0 +1,48 @@
+# Poyect Title 
+
+Information queries using sql with mypostgresql.
+
+## Instalation
+
+No installation is required.
+
+## About database set 
+
+The Sakila Database holds information about a company that rents movie DVDs. 
+For this project, you will be querying the database to gain an understanding of the customer base, such as what the patterns in movie watching are across different customer groups, 
+how they compare on payment earnings, and how the stores compare in their performance. To assist you in the queries ahead, the schema for the DVD Rental database is provided below.
+The case study was done in PostgreSQL, so I will use the python libraries to interact with the SQL database
+
+## Estado del Proyecto
+
+Terminado
+
+## Introduction to SQL and Joins
+1) An analysis is being made of the replacement cost per loss in relation to the rental rate of each film. You want to list movies whose replacement cost to rental rate ratio is less than 4 to 1.
+
+2) We filtered out movies that were released in 2006, rent for $0.99 or $2.99, have a replacement cost of less than $19.99, are between 90 and 150 minutes in length, are rated 'G', 'PG' or 'PG-13', 
+rent for 5 days or less, and are from one of the categories 'Comedy', 'Family' or 'Children'.
+For this purpose, a query was created to return the list of titles that meet all the above filters.
+
+3) The Rentals of the Day report was created, which consists of the information of all the rentals registered on a particular date. 
+A query was written to generate this report for a fixed date, for example, July 31, 2005. 
+
+4) A report was generated to show the rentals of the day: date and time of rental, client data: full name, phone number and country of residence; and data of the employee registering the rental: 
+full name, phone number and country of residence. A fixed date query was used as an example.
+
+5) It is thought that there is a problem with the congruence of the data between the rental rate of each film and the amount actually paid to rent it. For that reason, 
+a query was performed to show all rentals made in August 2005 where the rental rate of the movie does NOT match the amount actually paid according to the payment table.
+For this, we worked under the assumption that each rental of that period is associated to a single payment in the payment table.
+
+## Contacto
+
+Let´s get in touch [pame.proyectocgm@gmail.com]
+
+## Licencia
+
+Free use of the data extract from: https://www.kaggle.com/code/fetchii/dvd-rental-database-simple-study
+
+
+## Contacto
+
+Puedes contactarme en [tu@email.com].
